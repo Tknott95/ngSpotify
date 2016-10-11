@@ -7,3 +7,10 @@
 	</div>
 
 </form>
+
+
+<div *ngIf="searchRes">
+	<div *ngFor="let res of searchRes">
+		{{res.name}}
+	</div>
+</div>
