@@ -1,3 +1,9 @@
-<p>
-  search works!
-</p>
+<h1>Need Tunes by Trev?</h1>
+<p class="lead">Welcome to Trevor Knott's custom ngSpotify app built for a new spotify experience. Use this app to browse Artists, Albums, Songs, etc.</p>
+
+<form>
+	<div class="form-group">
+		<input type="text" class="form-control" placeholder="Search Artists..." [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()">
+	</div>
+
+</form>
